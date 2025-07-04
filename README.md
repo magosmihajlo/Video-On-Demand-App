@@ -21,11 +21,12 @@ An Android TV application that **fetches categorized movie and series content**,
 
 ## 🧱 Architecture Overview
 
-The project is split across multiple modules:
-📦 **app** -  Main entry point and composition root; sets up Hilt and NavHost
-📦 **data** - Handles remote API access and local storage logic; handles DI
-📦 **domain** - Contains repository interfaces, and core business models
-📦 **presentation** - UI layer built with Jetpack Compose; includes ViewModels, Screens, AppNavigation, Utilties for UI
+- The project is split across multiple modules:
+
+- 📦 **app** -  Main entry point and composition root; sets up Hilt and NavHost
+- 📦 **data** - Handles remote API access and local storage logic; handles DI
+- 📦 **domain** - Contains repository interfaces, and core business models
+- 📦 **presentation** - UI layer built with Jetpack Compose; includes ViewModels, Screens, AppNavigation, Utilties for UI
 
 ## 🔁 Data Flow
 
